@@ -1,3 +1,8 @@
+![Power BI](https://img.shields.io/badge/Power%20BI-Data%20Visualization-yellow)
+![Markdown](https://img.shields.io/badge/Markdown-Docs-blue)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+
+
 # Decomposition Trees in Power BI (Lab 6.1)
 
 > **Course Module:** Four  
@@ -30,17 +35,16 @@ In Module Four, you shift from **bottom-up** models to **top-down** models. The 
    - Add categorical fields to *Explain By* (e.g., **Race**, **Sex**, **Education**, **Occupation**, **Native Country**).  
 3. Expand nodes by clicking a **+** sign; use **AI Split** to let Power BI choose strongest split.  
 4. Adjust report-level selectors/slicers (e.g., *Female*, *Occupation: prof-specialty*, *Education: Doctorate*, *Weighted % White*).  
-5. Capture screenshots as you go (see *Screenshots* below for file names and placement).  
+5. Capture screenshots as you go (see *Screenshots* below).  
 
 ---
 
 ## Screenshots
-> **Important:** Place your images in a folder **named `images/`** in the **same directory** as this README. Use the exact file names below so the links work immediately on GitHub.
 
 ### 1) New Decision Tree (overview)
 **Prompt:** *What does your new decision tree look like? Provide a screenshot.*
 
-![Figure 1 — Decomposition tree overview](images/01-decomp-tree-overview.png)
+![Figure 1 — Decomposition tree overview](power-bi-DB1.png)
 
 > *Caption:* Initial tree showing top-down splits for the selected **Analyze** metric.
 
@@ -64,7 +68,7 @@ In Module Four, you shift from **bottom-up** models to **top-down** models. The 
 
 Add/confirm these as slicers or by drilling the tree to these categories, then capture the revised tree:
 
-![Figure 2 — Tree after targeted filters](images/03-decomp-tree-filtered.png)
+![Figure 2 — Tree after targeted filters](power-bi-DB2.png)
 
 > *Caption:* Decomposition tree restricted to *Female → prof-specialty → Doctorate* within the “weighted % white” context.
 
@@ -76,12 +80,6 @@ As you change inputs (filters or expanded nodes), you change the **subset of dat
 ---
 
 ## 5) Three different trees — what each calculates (A, B, C)
-Create three distinct trees by swapping the *Analyze* metric and/or the *Explain By* fields. Below are examples and the associated screenshots.
-
-> **File names:**  
-> A → `images/05a-decomp-tree-variant-a.png`  
-> B → `images/05b-decomp-tree-variant-b.png`  
-> C → `images/05c-decomp-tree-variant-c.png`  
 
 ### A) Minimum Age focus (white females)
 - **Analyze:** *Minimum Age* (min of Age)  
@@ -89,9 +87,7 @@ Create three distinct trees by swapping the *Analyze* metric and/or the *Explain
 - **Focus path:** *White → Female*  
 - **What it’s calculating:** The **minimum observed age** within the selected path. In my run, the **global minimum** was **17**, and I explored how that path tightens under white females.  
 
-![Figure 3 — Variant A: Minimum age focus](images/05a-decomp-tree-variant-a.png)
-
-> *Interpretation tip:* When using **Minimum** as the metric, extreme values can be driven by small groups. Consider adding counts to tooltips to judge robustness.
+![Figure 3 — Variant A: Minimum age focus](power-bi-DB3.png)
 
 ---
 
@@ -101,9 +97,7 @@ Create three distinct trees by swapping the *Analyze* metric and/or the *Explain
 - **Focus path:** *American Indian–Eskimo → Bachelor’s → Female*  
 - **What it’s calculating:** The **mean capital gains** for the specified subgroup. The tree reveals which attribute splits most strongly differentiate capital-gains levels.  
 
-![Figure 4 — Variant B: Avg. Capital Gains by subgroup](images/05b-decomp-tree-variant-b.png)
-
-> *Interpretation tip:* Watch for **AI Split** suggestions to prioritize splits that maximize between-group differences in the metric.
+![Figure 4 — Variant B: Avg. Capital Gains by subgroup](power-bi-DB4.png)
 
 ---
 
@@ -118,9 +112,7 @@ Create three distinct trees by swapping the *Analyze* metric and/or the *Explain
   - **Asian Pacific Islander males:** **38.17**  
 - **What it’s calculating:** The **mean age** within each branch. Each split refines the cohort and recomputes the average for that slice.  
 
-![Figure 5 — Variant C: Avg. Age across splits](images/05c-decomp-tree-variant-c.png)
-
-> *Note:* Your exact values may differ depending on your dataset filters/state. Document the active filters when you capture screenshots.
+![Figure 5 — Variant C: Avg. Age across splits](power-bi-DB5.png)
 
 ---
 
@@ -142,5 +134,18 @@ Create three distinct trees by swapping the *Analyze* metric and/or the *Explain
 
 ---
 
-## Repo & file structure
-Recommended layout in this folder:
+## Screenshot guidance
+- Use **1280–1920 px width** for readability.  
+- Crop out unrelated panels; keep the **Decomposition Tree** and relevant **slicers** visible.  
+- Use consistent **figure titles** in the visual header to match captions here.  
+
+---
+
+## Versioning
+- **Last updated:** <!-- update date here -->  
+- **Author:** Rachel Goldsbury  
+
+---
+
+## Notes for graders (Brightspace)
+This Markdown README contains all narrative and visual evidence requested. All screenshots are embedded inline under the *Screenshots* sections above. No external PDFs are required.
