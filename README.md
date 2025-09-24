@@ -132,17 +132,7 @@ Each new filter changes the **subset of the dataset being analyzed**. Power BI r
 
 ---
 
-## Future Improvements
-- Add **Bookmarks** to toggle between variants (A/B/C)  
-- Drillthrough page for **detailed subgroup KPIs**  
-- Add population **count context** in tooltips to interpret small groups  
-- Record a **GIF demo** to showcase interactive filtering  
-
----
-
 ## Repo Description
 Lab 6.1: Decomposition Trees in Power BI. Interactive analysis of demographic and socioeconomic subgroups using decomposition trees. Findings include baseline averages, subgroup variations, and capital gains insights, with detailed screenshots and explanations.
 
 ---
-
-## Tags
