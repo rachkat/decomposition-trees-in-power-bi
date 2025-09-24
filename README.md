@@ -1,7 +1,3 @@
-![Power BI](https://img.shields.io/badge/Power%20BI-Data%20Visualization-yellow)
-![Markdown](https://img.shields.io/badge/Markdown-Docs-blue)
-![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
-
 # Decomposition Trees in Power BI (Lab 6.1)
 
 ![Power BI](https://img.shields.io/badge/Power%20BI-Data%20Visualization-yellow)
