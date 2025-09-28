@@ -11,7 +11,7 @@
 ---
 
 ## Overview
-In Module Four, you shift from **bottom-up** models to **top-down** models. The goal of this lab is to introduce the methodology of **decision / decomposition analysis** and demonstrate how to interpret results. Using Power BI’s **Decomposition Tree** visual, I explored how different demographic and socioeconomic variables (race, sex, education, occupation, native country) affect metrics such as **average age** and **capital gains**.
+In Module Four, we shift from **bottom-up** models to **top-down** models. The goal of this lab is to introduce the methodology of **decision / decomposition analysis** and demonstrate how to interpret results. Using Power BI’s **Decomposition Tree** visual, I explored how different demographic and socioeconomic variables (race, sex, education, occupation, native country) affect metrics such as **average age** and **capital gains**.
 
 ---
 
@@ -25,12 +25,12 @@ In Module Four, you shift from **bottom-up** models to **top-down** models. The 
 - **Capital gains** analysis revealed significant variation across race/education subgroups. For example, *American Indian–Eskimo females with a bachelor’s degree* showed distinct averages that diverged from broader population trends.  
 - Using **Minimum Age** as the metric revealed the dataset contained individuals as young as **17 years**, and narrowing filters highlighted how quickly extreme values can change with smaller populations.
 
-> ✨ These findings highlight the decomposition tree’s strength: it allows for **interactive subgroup discovery**, showing how metrics change as filters refine the dataset.
+> These findings highlight the decomposition tree’s strength: it allows for **interactive subgroup discovery**, showing how metrics change as filters refine the dataset.
 
 ---
 
-## What you’ll learn
-- Build and interpret a **Decomposition Tree** in Power BI  
+## What I learned
+- How to build and interpret a **Decomposition Tree** in Power BI  
 - Configure **Analyze** (metric) vs **Explain By** (dimensions) fields  
 - Use **AI Split** to suggest statistically strongest next splits  
 - Apply interactive **filters/slicers** and observe how metrics shift  
@@ -38,7 +38,7 @@ In Module Four, you shift from **bottom-up** models to **top-down** models. The 
 
 ---
 
-## How to reproduce
+## Instructions on how to reproduce
 1. Open the **uCertify Lab 6.1 – Decomposition Trees in Power BI** environment.  
 2. In Power BI Desktop:  
    - Add the **Decomposition Tree** visual.  
