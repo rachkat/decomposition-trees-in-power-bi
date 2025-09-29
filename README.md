@@ -1,4 +1,4 @@
-# Decomposition Trees in Power BI (Lab 6.1)
+# Decomposition Trees in Power BI
 
 ![Power BI](https://img.shields.io/badge/Power%20BI-Data%20Visualization-yellow)
 ![Markdown](https://img.shields.io/badge/Markdown-Docs-blue)
@@ -129,6 +129,6 @@ Each new filter changes the **subset of the dataset being analyzed**. Power BI r
 ---
 
 ## Repo Description
-Lab 6.1: Decomposition Trees in Power BI. Interactive analysis of demographic and socioeconomic subgroups using decomposition trees. Findings include baseline averages, subgroup variations, and capital gains insights, with detailed screenshots and explanations.
+Decomposition Trees in Power BI. Interactive analysis of demographic and socioeconomic subgroups using decomposition trees. Findings include baseline averages, subgroup variations, and capital gains insights, with detailed screenshots and explanations.
 
 ---
